@@ -9,6 +9,7 @@ import solveByStep from './Algorithm/main2'
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App(props) {
+
 	let [myArr,
 		setArr] = useState(props.arr);
 	let [show,
